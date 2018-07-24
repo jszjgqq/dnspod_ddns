@@ -24,7 +24,7 @@ windows环境: 自行添加windows的计划任务<br/>
 **Linux系统中计划任务的添加方法(以Debian Ubuntu为例)** <br/>
 方法一:<br/>
 <pre><code>
-# echo "*/10 * * * * root	 cd /shell/path && /usr/bin/php -f dnspod_ddns_report.php > /dev/null" >> /etc/crontab
+# echo "*/10 * * * * root cd /shell/path && /usr/bin/php -f dnspod_ddns_report.php > /dev/null" >> /etc/crontab
 </code></pre>
 
 
